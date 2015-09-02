@@ -6,4 +6,4 @@ RUN apk upgrade --update && \
     cd /tmp/nyancat && make && cp ./src/nyancat /usr/local/bin/ && cd / && \
     rm -rf /tmp/nyancat && \
     apk del --purge g++ make git
-CMD /usr/local/bin/nyan
+CMD /usr/local/bin/nyancat
