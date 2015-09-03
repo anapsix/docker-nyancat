@@ -4,4 +4,5 @@ Nyancat in a box
 
 # Usage
 
-`docker run -it --rm anapsix/nyancat`
+- busybox variant: `docker run -it --rm anapsix/nyancat`
+- alpine variant: `docker run -it --rm anapsix/nyancat:alpine`
